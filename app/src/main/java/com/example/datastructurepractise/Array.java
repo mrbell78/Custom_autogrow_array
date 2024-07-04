@@ -30,7 +30,7 @@ public class Array {
             throw new IllegalAccessException();
         }
 
-        for(int i=0;i<count;i++){
+        for(int i=index;i<count;i++){
             items[i]=items[i+1];
             count--;
         }
